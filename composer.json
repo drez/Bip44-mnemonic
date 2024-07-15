@@ -1,0 +1,22 @@
+{
+    "name": "apigoat/bip44",
+    "type": "project",
+    "description": "Mnemonic for solana account",
+    "autoload": {
+        "psr-4": {
+            "App\\Domains\\": "src/App/Domains"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+     "require": {
+        
+        "adhocore/env": "^0.1.0",
+        "attestto/solana-php-sdk": "dev-master",
+        "ext-sodium": "*",
+        "furqansiddiqui/bip39-mnemonic-php": "dev-master",
+        "simplito/elliptic-php": "1.0.6"
+    },
+  "minimum-stability": "dev"
+}
